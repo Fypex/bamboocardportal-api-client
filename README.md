@@ -1,5 +1,5 @@
-# Gamivo client
+# Bamboocard api client
 
-[Packagist](https://packagist.org/packages/fypex/gamivo-api-client)
+[Packagist](https://packagist.org/packages/fypex/bamboocardportal-api-client)
 
-[Docs](https://www.gamivo.com/api-documentation/public)
+[Docs](https://docs.google.com/document/d/1LgsR193DfdaXY8M1z_Fd4umk7eUwF5qp/edit)
