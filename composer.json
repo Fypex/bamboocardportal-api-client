@@ -1,0 +1,33 @@
+{
+  "name": "fypex/bamboocardportal-api-client",
+  "description": "Bamboocard api client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fypex",
+      "email": "endtimes104@gmail.com"
+    }
+  ],
+  "type": "library",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Fypex\\BamboocardClient\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.3",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.0",
+    "ramsey/uuid": "^4.2"
+  },
+  "config": {
+    "sort-packages": true,
+    "secure-http": false
+  },
+  "require-dev": {
+    "larapack/dd": "^1.1"
+  }
+}
