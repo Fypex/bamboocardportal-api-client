@@ -39,7 +39,7 @@ class Price
     /**
      * @return float
      */
-    public function getCurrencyCode(): float
+    public function getCurrencyCode(): string
     {
         return $this->currencyCode;
     }
