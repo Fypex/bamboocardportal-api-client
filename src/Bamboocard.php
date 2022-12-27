@@ -10,7 +10,7 @@ final class Bamboocard
 {
 
     public const SANDBOX_URL = 'https://api-stage.bamboocardportal.com/api/integration/v1.0/';
-    public const DEFAULT_URL = 'https://api-stage.bamboocardportal.com/api/integration/v1.0/';
+    public const DEFAULT_URL = 'https://api.bamboocardportal.com/api/integration/v1.0/';
 
     public const accounts = 'accounts';
     public const catalog = 'catalog';
