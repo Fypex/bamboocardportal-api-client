@@ -39,7 +39,7 @@ class Brand
         $this->products = $products;
 
         foreach ($products as $product){
-            $this->productKeys[$product->getName()] = $product;
+            $this->productKeys[$product->getId()] = $product;
         }
 
     }
@@ -125,12 +125,12 @@ class Brand
     }
 
     /**
-     * @param string $name
+     * @param int $id
      * @return Product
      */
-    public function getProductByName(string $name): Product
+    public function getProductById(int $id): Product
     {
-        return $this->productKeys[$name];
+        return $this->productKeys[$id];
     }
 
 }
