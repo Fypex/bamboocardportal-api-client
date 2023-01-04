@@ -41,7 +41,7 @@ class BamboocardClient
             'verify' => false,
             'headers' => [
                 'Accept' => '*/*',
-                'Authorization' => $credentials->getHash(),
+                'Authorization' => $credentials->getHash($dev),
             ]
         ]);
 
