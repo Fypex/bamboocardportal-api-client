@@ -55,9 +55,9 @@ class Order
     }
 
     /**
-     * @return string
+     * @return Status
      */
-    public function getStatus(): string
+    public function getStatus(): Status
     {
         return $this->status;
     }
